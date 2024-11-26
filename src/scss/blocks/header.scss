@@ -1,0 +1,23 @@
+.header {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+
+    &__container {
+        display: flex;      
+        align-items: center;      
+    }
+
+    &__logo {
+        height: 36px;
+        margin-top: 26px;
+
+        @media (max-width: 375px) {
+            height: 32px;
+            margin-top: 18px;
+        }
+    }
+}
+
