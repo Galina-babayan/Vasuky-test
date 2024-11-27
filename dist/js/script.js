@@ -229,7 +229,6 @@ window.addEventListener('DOMContentLoaded', () => {
     flag = !flag;
     activeSlide++;
     if (activeSlide >= data.length) activeSlide = 0;
-    console.log(activeSlide);
 
     if (activeSlide == 3) {
       current.textContent = 1;
